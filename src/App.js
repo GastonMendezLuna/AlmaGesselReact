@@ -1,10 +1,18 @@
 import './App.css';
+import NavBar from './components/NavBar.js';
 
 function App() {
   return (
-    <div className="App"> Mi primer carrito</div>
+   
+    <div>
+      <div className="App"> Mi primer carrito</div>;
+      <NavBar/>;
+    </div>
+    
     
   );
 }
+
+
 
 export default App;

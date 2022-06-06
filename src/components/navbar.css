@@ -1,0 +1,14 @@
+.nav-main{
+    
+    width: 100vw;
+    height: 20vh;
+    justify-content: space-around;
+    background-color: black;
+}
+
+
+
+.logo-nav{
+    width: 100px;
+    height: 100px;
+}
