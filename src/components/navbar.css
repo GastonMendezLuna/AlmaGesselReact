@@ -1,14 +1,39 @@
+body {
+    box-sizing: 0;
+    margin: 0;
+    padding: 0;
+}
+
 .nav-main{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    background-color: rgb(15, 11, 11);
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 700;
     
+}
+
+.nav-justify{
+    display: flex;
+    flex-flow: row wrap;
     width: 100vw;
     height: 20vh;
     justify-content: space-around;
-    background-color: black;
+    align-items: center;
+   
 }
 
-
-
 .logo-nav{
-    width: 100px;
-    height: 100px;
+    display: flex;
+    width: 150px;
+    height: 125px;
+    
+}
+
+.link-nav{
+    display: flex;
+    text-decoration: none;
+    
 }
