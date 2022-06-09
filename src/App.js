@@ -1,11 +1,14 @@
 import './App.css';
-import NavBar from './components/NavBar.js';
+import ItemListContainer from './components/NavBar/ItemListContainer.js';
+import NavBar from './components/NavBar/NavBar.js';
+
 
 function App() {
   return (
    
     <div>
-      <NavBar/>;
+      <NavBar/>
+      <ItemListContainer title="Artesanias" description="Con el arte como guia"/>
     </div>
     
     
